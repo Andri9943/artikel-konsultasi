@@ -1,0 +1,17 @@
+cat > package.json << 'EOF'
+{
+  "name": "website-konsultasi-artikel",
+  "version": "1.0.0",
+  "description": "Website konsultasi artikel sederhana",
+  "main": "index.html",
+  "scripts": {
+    "build": "mkdir -p build && cp -R *.html *.css *.js images assets build/"
+  },
+  "keywords": [
+    "konsultasi",
+    "artikel"
+  ],
+  "author": "",
+  "license": "ISC"
+}
+EOF
